@@ -14,7 +14,7 @@ const Intro = () => {
             on working with others to build amazing software and solve technical problems. My
             major areas of interest include Web Development, Data Structures and Algorithms.
         </p>
-        <Link><button className='btn'> <img src={btnImg} alt='img'/> Hire Me </button></Link>
+        <Link><button className='btn'> <img src={btnImg} className='btnImg' alt='img'/> Hire Me </button></Link>
         </div>
         <img src={bg} alt='pic' className='bg'/>
     </section>
