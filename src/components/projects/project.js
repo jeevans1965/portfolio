@@ -30,6 +30,8 @@ and stores the details of every patient and the doctors automatically.
         </div>
         </div>
 
+
+
         <div className='skillBar'>
         <img src={AppDes} alt='skillBarImg' className='skillBarImg'/>
         <div className='skillBarText'>
@@ -46,6 +48,24 @@ and stores the details of every patient and the doctors automatically.
 healthcare application that incorporates features such as user login,
 appointment booking with doctors, lab test package booking, access to health
 articles, and a view of order details.
+</p>
+        </div>
+        </div>
+
+        <div className='skillBar'>
+        <img src={UIDesign} alt='skillBarImg' className='skillBarImg'/>
+        <div className='skillBarText'>
+          <h2>
+              Project 3:
+          </h2>
+          <h3>
+            Todo List project
+          </h3>
+          <h4>
+          Technology Used: React JS, Tailwindnd CSS
+          </h4>
+          <p><strong>Description:</strong> It takes two text inputs as a task title and title’s description, and
+after completion of that task we can delete that particular task.
 </p>
         </div>
         </div>
