@@ -13,7 +13,7 @@ const Navbar = () => {
             <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='destopMenuListItem'>Home</Link>
             <Link className='destopMenuListItem' activeClass='active' to='project' spy={true} smooth={true} offset={-100} duration={500}>Projects</Link>
             <Link className='destopMenuListItem' activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500}>Education</Link>
-            <Link className='destopMenuListItem' activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500}>About</Link>
+            <Link className='destopMenuListItem' activeClass='active' to='skill' spy={true} smooth={true} offset={-100} duration={500}>About</Link>
         </div>
         <button className='destopMenuBtn'>
             <img src={contactImg} alt='' className='destopMenuImg'/>
