@@ -37,7 +37,7 @@ const Education = () => {
             II PUC :
           </h2>
           <h3>
-          Karnataka State PU Board - 2020
+            Karnataka State PU Board - 2020
           </h3>
           <h4>
           <strong>College : </strong>Vaishnavi Chethana College
@@ -52,16 +52,15 @@ const Education = () => {
         <div className='skillBar'>
         <div className='skillBarText'>
           <h2>
-              Project 3:
+            SSLC :
           </h2>
           <h3>
-            Todo List project
+            KSEEB - 2018
           </h3>
           <h4>
-          Technology Used: React JS, Tailwindnd CSS
+          <strong>School : </strong>Navachethana High School
           </h4>
-          <p><strong>Description:</strong> It takes two text inputs as a task title and title’s description, and
-after completion of that task we can delete that particular task.
+          <p><strong>Percentage - 88.32</strong>
 </p>
         </div>
         </div>
