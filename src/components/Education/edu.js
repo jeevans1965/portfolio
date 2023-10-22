@@ -15,13 +15,16 @@ const Education = () => {
        
         <div className='skillBarText'>
           <h2>
-            B.E(CSE):
+            B.E : 
           </h2>
           <h3>
             Visvesvaraya Technological University - 2024
           </h3>
           <h4>
             <strong>College : </strong> Dayananda Sagar Academy of Technology and Management
+          </h4>
+          <h4>
+            <strong>Branch : </strong> Computer Science Engineering
           </h4>
           <p><strong>CGPA - 8.8</strong> (till 6th Sem)</p>
         </div>
@@ -37,7 +40,7 @@ const Education = () => {
             II PUC :
           </h2>
           <h3>
-            Karnataka State PU Board - 2020
+            <strong>Board : </strong>Karnataka State PU Board - 2020
           </h3>
           <h4>
           <strong>College : </strong>Vaishnavi Chethana College
@@ -55,7 +58,7 @@ const Education = () => {
             SSLC :
           </h2>
           <h3>
-            KSEEB - 2018
+            <strong>Board : </strong>KSEEB (Karnataka Secondary Education Examination Board) - 2018
           </h3>
           <h4>
           <strong>School : </strong>Navachethana High School
