@@ -1,7 +1,7 @@
 .navbar {
     background: rgb(22, 4, 156);
     height: 5rem;
-    width: 100%;
+    width: 100vw;
     max-width: 75rem;
     margin: auto;
     padding: 1rem 2rem;
@@ -11,33 +11,33 @@
     position: sticky;
     top: 0;
     z-index: 3;
-  }
-  
-  .logo {
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
     object-fit: cover;
     height: 3rem;
     width: 4rem;
-  }
-  
-  .desktopMenuListItem {
-    margin: 1rem;
-    cursor: pointer;
-  }
-  
-  .desktopMenuBtn {
-    background: azure;
-    color: black;
-    border: none;
+}
+
+.desktopMenu {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 0 2rem; /* Adjust padding as needed */
-    border-radius: 2rem;
-  }
-  
-  .desktopMenuListItem:hover {
+}
+
+.desktopMenuListItem {
+    margin: 0 1rem; /* Adjust as needed */
+    cursor: pointer;
+    text-decoration: none; /* To remove the default link underline */
+    color: white; /* Change link color as needed */
+}
+
+.desktopMenuListItem:hover {
     color: yellow;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid rgb(157, 232, 6);
-  }
-  
+}

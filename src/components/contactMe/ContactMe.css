@@ -1,0 +1,47 @@
+/* ContactMe.css */
+#contact-me{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.contact-section {
+    background: #780231;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact-content h2 {
+    font-size: 2rem;
+  }
+  
+  .contact-content p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  .contact-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-content li {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .contact-content a {
+    text-decoration: none;
+    color: #0078d4; /* LinkedIn and GitHub brand color */
+  }
+  

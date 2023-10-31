@@ -50,11 +50,25 @@ const Navbar = () => {
         >
           About
         </Link>
+
+        <Link
+          to="contact-me" // Make sure you have an element with id="skill"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          className="desktopMenuListItem"
+        >
+          Contact Me
+        </Link>
+
       </div>
-      <button className="desktopMenuBtn">
-        <img src={contactImg} alt="" className="desktopMenuImg" />
-        Contact Me
-      </button>
+      {
+       <button className="desktopMenuBtn">
+       
+         
+      </button> 
+      }
     </nav>
   );
 };
