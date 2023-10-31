@@ -11,9 +11,9 @@ const ContactMe = () => {
           You can reach out to me through the following methods:
         </p>
         <ul>
-          <li>Email: jeevan@example.com</li>
-          <li>LinkedIn: <a href="https://www.linkedin.com/in/jeevan1120">LinkedIn Profile</a></li>
-          <li>GitHub: <a href="https://github.com/jeevans1965">GitHub Profile</a></li>
+          <li><strong>Email:</strong>  jeevanshivaraj2001@gmail.com </li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jeevan1120">LinkedIn Profile</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/jeevans1965">GitHub Profile</a></li>
         </ul>
       </div>
     </section>
