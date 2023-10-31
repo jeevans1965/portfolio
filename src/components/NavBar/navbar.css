@@ -1,7 +1,7 @@
-.navbar{
+.navbar {
     background: rgb(22, 4, 156);
     height: 5rem;
-    width: 100vw;
+    width: 100%;
     max-width: 75rem;
     margin: auto;
     padding: 1rem 2rem;
@@ -11,42 +11,33 @@
     position: sticky;
     top: 0;
     z-index: 3;
-}
-
-.logo{
+  }
+  
+  .logo {
     object-fit: cover;
     height: 3rem;
     width: 4rem;
-}
-
-.destopMenuListItem{
+  }
+  
+  .desktopMenuListItem {
     margin: 1rem;
     cursor: pointer;
-}
-.destopMenuBtn{
+  }
+  
+  .desktopMenuBtn {
     background: azure;
     color: black;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 3rem;
+    padding: 0 2rem; /* Adjust padding as needed */
     border-radius: 2rem;
-
-}
-
-.destopMenuListItem:hover{
+  }
+  
+  .desktopMenuListItem:hover {
     color: yellow;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid rgb(157, 232, 6);
-}
-
-.destopMenuBtn{
-    object-fit: cover;
-    height: 3rem;
-    width: 4rem;
-    margin: 3rem;
-    text-decoration: double;
-    text-shadow: 0cap;
-
-}
+  }
+  

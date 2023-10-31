@@ -6,7 +6,7 @@ import UIDesign from '../../assets/ui-design.png'
 
 const Project = () => {
   return (
-    <section id='skills'>
+    <section id='pro'>
       <h1 className='skillTitle'>Projects I did</h1><br/>
       <span className='skillDesc'>Major two project are build, one is related to web development and another one is related to android app development.</span>
       <div className='skillBars'>
