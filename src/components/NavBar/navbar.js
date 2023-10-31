@@ -31,7 +31,7 @@ const Navbar = () => {
           Projects
         </Link>
         <Link
-          to="education" // Make sure you have an element with id="education"
+          to="edu" // Make sure you have an element with id="education"
           spy={true}
           smooth={true}
           offset={-100}
