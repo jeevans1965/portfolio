@@ -21,7 +21,7 @@ const Intro = () => {
           <button className='btn'> <img src={btnImg} className='btnImg' alt='img'/> Hire Me </button>
         </Link>
       </div>
-      <img src={bg} alt='pic' className='bg'/>
+      {/* <img src={bg} alt='pic' className='bg'/> */}
     </sectioni>
   )
 }
